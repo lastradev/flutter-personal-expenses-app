@@ -115,6 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Text('Show Chart'),
                   Switch.adaptive(
+                    activeColor: Theme.of(context).primaryColor,
                     value: _showChart,
                     onChanged: (val) {
                       setState(() {
