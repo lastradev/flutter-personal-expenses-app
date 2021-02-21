@@ -3,10 +3,10 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import './widgets/new_transaction.dart';
-import './widgets/transaction_list.dart';
-import './widgets/chart.dart';
-import './models/transaction.dart';
+import 'models/transaction.dart';
+import 'widgets/chart.dart';
+import 'widgets/new_transaction.dart';
+import 'widgets/transaction_list.dart';
 
 void main() {
   // WidgetsFlutterBinding.ensureInitialized();
